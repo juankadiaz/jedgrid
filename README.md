@@ -40,5 +40,5 @@ v.1.0.0 -> Primera versión estable de la plantilla.
 Agradecimientos especiales
 ---------------
 
-* [[Roberto Segura - phproberto](https://github.com/phproberto)], revisión del template, fixes varios y sobretodo por estar siempre dispuesto a ayudar.
 * [[Álvaro Felipe](https://twitter.com/alvarofelipe)], creador de ED Grid.
+* [[Roberto Segura - phproberto](https://github.com/phproberto)], revisión del template, fixes varios y sobretodo por estar siempre dispuesto a ayudar.

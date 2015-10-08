@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>jedgrid</name>
+	<version>1.0</version>
+	<creationDate>09/28/2015</creationDate>
+	<author>JuanKa Díaz</author>
+	<authorEmail>juan.diaz@jdevelopia.com</authorEmail>
+	<copyright>GNU/GPL</copyright>
+	<description>TPL_JEDGRID_XML_DESCRIPTION</description>
+	<files>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>language</folder>
+		<folder>fonts</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>slider</position>
+		<position>features</position>
+		<position>team</position>
+		<position>footer</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_JEDGRID_PARAM_LOGOFILE"
+					description="TPL_JEDGRID_PARAM_LOGOFILE_DESC" />
+
+				<field name="sitetitle"  type="text" default="Joomla ED Grid"
+					label="TPL_JEDGRID_PARAM_SITETITLE"
+					description="TPL_JEDGRID_PARAM_SITETITLE_DESC"
+					filter="string" />
+
+				<field name="developermode"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="TPL_JEDGRID_PARAM_DEVELOPERMODE"
+					description="TPL_JEDGRID_PARAM_DEVELOPERMODE_DESC" >
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="jqueryout"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="TPL_JEDGRID_PARAM_JQUERYOUT"
+					description="TPL_JEDGRID_PARAM_JQUERYOUT_DESC" >
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="jqueryouturl" type="url" default="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" label="TPL_JEDGRID_PARAM_JQUERYOUTURL" description="TPL_JEDGRID_PARAM_JQUERYOUTURL_DESC" />		
+
+			</fieldset>
+
+			<fieldset name="social_networks" label="TPL_JEDGRID_FIELDSET_SOCIAL_NETWORKS">
+
+				<field name="facebookURL" type="url" default="" label="TPL_JEDGRID_PARAM_FACEBOOKURL" description="" size="10" />
+				
+				<field name="twitterURL" type="url" default="" label="TPL_JEDGRID_PARAM_TWITTERURL" description="" size="10" />
+
+				<field name="youtubeURL" type="url" default="" label="TPL_JEDGRID_PARAM_YOUTUBEURL" description="" size="10" />
+
+				<field name="linkedinURL" type="url" default="" label="TPL_JEDGRID_PARAM_LINKEDINURL" description="" size="10" />
+
+				<field name="whatsappURL" type="url" default="" label="TPL_JEDGRID_PARAM_WHATSAPPURL" description="" size="10" />
+
+				<field name="instagramURL" type="url" default="" label="TPL_JEDGRID_PARAM_INSTAGRAMURL" description="" size="10" />
+
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

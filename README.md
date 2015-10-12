@@ -27,7 +27,7 @@ Version
 
 Instalación
 ---------------
-* Clona este repositorio o simplemente descargalo.
+* Clona este repositorio o [[simplemente descargalo](https://github.com/juankadiaz/jedgrid/archive/master.zip)].
 * En el back-end de tu Joomla! dirígete a Extensiones->Gestionar
 * Subir e instalar la extensión de Joomla, selecciona el fichero .zip que te acabas de descargar y apreta el botón de "Subir e instalar".
 * De forma automática tendrás disponible la plantilla en Extensiones->Plantillas para activar y editar sus parámatros básicos.
